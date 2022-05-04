@@ -31,5 +31,7 @@ export class ServersComponent implements OnInit {
   }
   onUpdateServerName(event: any) {
     this.serverName = event.target.value
+    console.log(event)
+    
   }
 }
