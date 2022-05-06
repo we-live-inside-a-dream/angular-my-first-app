@@ -20,8 +20,8 @@
 <div>{{allowNewServer}}</div> -->
 
 <!-- <p>{{ serverCreationStatus }}</p> -->
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of servers"> </app-server>
+
 
 <!-- <div class="container">
   <div class="row">
